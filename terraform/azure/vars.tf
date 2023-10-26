@@ -1,4 +1,4 @@
 variable "storage_account_name" {
     type    = string
-    default = "montezbobao"
+    default = "montezbobao123"
 }

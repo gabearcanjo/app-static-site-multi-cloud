@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name  = "rg-staticsite-tf"
-    storage_account_name = "staticsitekbtf001"
+    resource_group_name  = "montezbobao"
+    storage_account_name = "montezbobao"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
   }
