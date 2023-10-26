@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name  = "montezbobao"
+    resource_group_name  = "montez-bobao"
     storage_account_name = "montezbobao"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
